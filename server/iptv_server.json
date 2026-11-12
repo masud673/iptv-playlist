@@ -1,0 +1,8 @@
+[
+    {
+        "name": "playlist_1",
+        "url": "https:\/\/example.com\/playlist1.m3u",
+        "type": "m3u",
+        "status": true
+    }
+]

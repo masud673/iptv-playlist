@@ -1,0 +1,928 @@
+{
+  "config": {
+    "view_type": "grid",
+    "app_title": "Flussonic Live TV"
+  },
+  "categories": [
+    {
+      "id": 8,
+      "name": "Live Sports"
+    },
+    {
+      "id": 2,
+      "name": "Sports"
+    },
+    {
+      "id": 3,
+      "name": "News"
+    },
+    {
+      "id": 4,
+      "name": "Movies"
+    },
+    {
+      "id": 5,
+      "name": "Bangladeshi"
+    },
+    {
+      "id": 6,
+      "name": "Indian Bangla"
+    },
+    {
+      "id": 7,
+      "name": "Music"
+    },
+    {
+      "id": 9,
+      "name": "Kids"
+    },
+    {
+      "id": 10,
+      "name": "Documentary"
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "stream_name": "1LIVE",
+      "display_name": "1LIVE",
+      "logo_url": "/logos/Live1.jpeg",
+      "category": "Live Sports,Sports",
+      "sort_order": 1,
+      "play_url": "http://103.89.248.10:8082/1LIVE/index.m3u8"
+    },
+    {
+      "id": 2,
+      "stream_name": "2LIVE",
+      "display_name": "2LIVE",
+      "logo_url": "/logos/Live2.jpeg",
+      "category": "Live Sports,Sports",
+      "sort_order": 2,
+      "play_url": "http://103.89.248.10:8082/2LIVE/index.m3u8"
+    },
+    {
+      "id": 13,
+      "stream_name": "LIVE-CRICKET",
+      "display_name": "LIVE-CRICKET",
+      "logo_url": "/logos/LIVE-CRICKET.jpg",
+      "category": "Live Sports,Sports",
+      "sort_order": 3,
+      "play_url": "http://103.89.248.10:8082/LIVE-CRICKET/index.m3u8"
+    },
+    {
+      "id": 14,
+      "stream_name": "LIVE-CRICKET-1",
+      "display_name": "LIVE-CRICKET-1",
+      "logo_url": "/logos/LIVE-CRICKET.jpg",
+      "category": "Live Sports,Sports",
+      "sort_order": 4,
+      "play_url": "http://103.89.248.10:8082/LIVE-CRICKET-1/index.m3u8"
+    },
+    {
+      "id": 15,
+      "stream_name": "LIVE-FOOTBALL-1",
+      "display_name": "LIVE-FOOTBALL-1",
+      "logo_url": "/logos/LIVE-FOOTBALL.jpg",
+      "category": "Live Sports",
+      "sort_order": 5,
+      "play_url": "http://103.89.248.10:8082/LIVE-FOOTBALL-1/index.m3u8"
+    },
+    {
+      "id": 101,
+      "stream_name": "LIVE-FOOTBALL",
+      "display_name": "LIVE-FOOTBALL",
+      "logo_url": "/logos/LIVE-FOOTBALL.jpg",
+      "category": "Sports",
+      "sort_order": 6,
+      "play_url": "http://103.89.248.10:8082/LIVE-FOOTBALL/index.m3u8"
+    },
+    {
+      "id": 104,
+      "stream_name": "LIVE-FOOTBALL-2",
+      "display_name": "LIVE-FOOTBALL-2",
+      "logo_url": "/logos/logo-1794277826467.jpg",
+      "category": "Sports",
+      "sort_order": 7,
+      "play_url": "http://103.89.248.10:8082/LIVE-FOOTBALL-2/index.m3u8"
+    },
+    {
+      "id": 25,
+      "stream_name": "T-SPORTS",
+      "display_name": "T-SPORTS",
+      "logo_url": "/logos/tsports.jpg",
+      "category": "Live Sports,Sports",
+      "sort_order": 8,
+      "play_url": "http://103.89.248.10:8082/T-SPORTS/index.m3u8"
+    },
+    {
+      "id": 17,
+      "stream_name": "PTV",
+      "display_name": "PTV",
+      "logo_url": "/logos/ptvsports.jpg",
+      "category": "Sports",
+      "sort_order": 9,
+      "play_url": "http://103.89.248.10:8082/PTV/index.m3u8"
+    },
+    {
+      "id": 4,
+      "stream_name": "A-SPORTS",
+      "display_name": "A-SPORTS",
+      "logo_url": "/logos/a-sports.jpg",
+      "category": "Sports",
+      "sort_order": 10,
+      "play_url": "http://103.89.248.10:8082/A-SPORTS/index.m3u8"
+    },
+    {
+      "id": 20,
+      "stream_name": "STAR-SPORTS-2",
+      "display_name": "STAR-SPORTS-2",
+      "logo_url": "/logos/starsports2.jpg",
+      "category": "Sports",
+      "sort_order": 12,
+      "play_url": "http://103.89.248.10:8082/STAR-SPORTS-2/index.m3u8"
+    },
+    {
+      "id": 22,
+      "stream_name": "SUPERSPORTS-LALIGA",
+      "display_name": "SUPERSPORTS-LALIGA",
+      "logo_url": "/logos/laliga.jpg",
+      "category": "Sports",
+      "sort_order": 14,
+      "play_url": "http://103.89.248.10:8082/SUPERSPORTS-LALIGA/index.m3u8"
+    },
+    {
+      "id": 529,
+      "stream_name": "Star-sports-select-1",
+      "display_name": "Star-sports-select-1",
+      "logo_url": "/logos/starselect1.jpg",
+      "category": "Sports",
+      "sort_order": 15,
+      "play_url": "http://103.89.248.10:8082/Star-sports-select-1/index.m3u8"
+    },
+    {
+      "id": 24,
+      "stream_name": "Star-sports-select-2",
+      "display_name": "Star-sports-select-2",
+      "logo_url": "/logos/starselect2.jpg",
+      "category": "Sports",
+      "sort_order": 17,
+      "play_url": "http://103.89.248.10:8082/Star-sports-select-2/index.m3u8"
+    },
+    {
+      "id": 55,
+      "stream_name": "Bein-hd",
+      "display_name": "Bein-hd",
+      "logo_url": "/logos/bein1.jpg",
+      "category": "Sports",
+      "sort_order": 19,
+      "play_url": "http://103.89.248.10:8082/Bein-hd/index.m3u8"
+    },
+    {
+      "id": 46,
+      "stream_name": "BEIN-SPORTS-2",
+      "display_name": "BEIN-SPORTS-2",
+      "logo_url": "/logos/bein2.jpg",
+      "category": "Sports",
+      "sort_order": 20,
+      "play_url": "http://103.89.248.10:8082/BEIN-SPORTS-2/index.m3u8"
+    },
+    {
+      "id": 47,
+      "stream_name": "BEIN-SPORTS-3",
+      "display_name": "BEIN-SPORTS-3",
+      "logo_url": "/logos/bein3.jpg",
+      "category": "Sports",
+      "sort_order": 21,
+      "play_url": "http://103.89.248.10:8082/BEIN-SPORTS-3/index.m3u8"
+    },
+    {
+      "id": 532,
+      "stream_name": "TNT-Sports-1",
+      "display_name": "TNT-Sports-1",
+      "logo_url": "/logos/tntsports1.jpeg",
+      "category": "",
+      "sort_order": 23,
+      "play_url": "http://103.89.248.10:8082/TNT-Sports-1/index.m3u8"
+    },
+    {
+      "id": 858,
+      "stream_name": "TNT-Sports-2",
+      "display_name": "TNT-Sports-2",
+      "logo_url": "/logos/tntsports2.jpeg",
+      "category": "Sports",
+      "sort_order": 24,
+      "play_url": "http://103.89.248.10:8082/TNT-Sports-2/index.m3u8"
+    },
+    {
+      "id": 426,
+      "stream_name": "Ten-Cricket-HD",
+      "display_name": "Ten-Cricket-HD",
+      "logo_url": "/logos/tencricket.jpg",
+      "category": "",
+      "sort_order": 25,
+      "play_url": "http://103.89.248.10:8082/Ten-Cricket-HD/index.m3u8"
+    },
+    {
+      "id": 526,
+      "stream_name": "Sky-Sports-Cricket",
+      "display_name": "Sky-Sports-Cricket",
+      "logo_url": "/logos/skycricket.jpg",
+      "category": "",
+      "sort_order": 26,
+      "play_url": "http://103.89.248.10:8082/Sky-Sports-Cricket/index.m3u8"
+    },
+    {
+      "id": 528,
+      "stream_name": "Sony-TEN-1",
+      "display_name": "Sony-TEN-1",
+      "logo_url": "/logos/sonyten-1.png",
+      "category": "",
+      "sort_order": 28,
+      "play_url": "http://103.89.248.10:8082/Sony-TEN-1/index.m3u8"
+    },
+    {
+      "id": 536,
+      "stream_name": "sony-ten3",
+      "display_name": "sony-ten3",
+      "logo_url": "/logos/ten3hd.jpg",
+      "category": "",
+      "sort_order": 30,
+      "play_url": "http://103.89.248.10:8082/sony-ten3/index.m3u8"
+    },
+    {
+      "id": 869,
+      "stream_name": "willow",
+      "display_name": "willow",
+      "logo_url": "/logos/willowhd.jpg",
+      "category": "",
+      "sort_order": 32,
+      "play_url": "http://103.89.248.10:8082/willow/index.m3u8"
+    },
+    {
+      "id": 923,
+      "stream_name": "Star-sport-3",
+      "display_name": "Star-sport-3",
+      "logo_url": "/logos/starsports3.jpg",
+      "category": "",
+      "sort_order": 33,
+      "play_url": "http://103.89.248.10:8082/Star-sport-3/index.m3u8"
+    },
+    {
+      "id": 1418,
+      "stream_name": "Sky-Sports-Main-Event",
+      "display_name": "Sky-Sports-Main-Event",
+      "logo_url": "/logos/skymainevent.jpg",
+      "category": "",
+      "sort_order": 34,
+      "play_url": "http://103.89.248.10:8082/Sky-Sports-Main-Event/index.m3u8"
+    },
+    {
+      "id": 3,
+      "stream_name": "71-TV",
+      "display_name": "71-TV",
+      "logo_url": "/logos/ekattortv.jpg",
+      "category": "News",
+      "sort_order": 36,
+      "play_url": "http://103.89.248.10:8082/71-TV/index.m3u8"
+    },
+    {
+      "id": 5,
+      "stream_name": "ANANDA-TV",
+      "display_name": "ANANDA-TV",
+      "logo_url": "/logos/anandotv.jpg",
+      "category": "Movies",
+      "sort_order": 37,
+      "play_url": "http://103.89.248.10:8082/ANANDA-TV/index.m3u8"
+    },
+    {
+      "id": 6,
+      "stream_name": "ATN-NEWS",
+      "display_name": "ATN-NEWS",
+      "logo_url": "/logos/atnnews.jpg",
+      "category": "News",
+      "sort_order": 38,
+      "play_url": "http://103.89.248.10:8082/ATN-NEWS/index.m3u8"
+    },
+    {
+      "id": 7,
+      "stream_name": "DBC-NEWS",
+      "display_name": "DBC-NEWS",
+      "logo_url": "/logos/dbc.jpg",
+      "category": "News",
+      "sort_order": 39,
+      "play_url": "http://103.89.248.10:8082/DBC-NEWS/index.m3u8"
+    },
+    {
+      "id": 35,
+      "stream_name": "ATN-BANGLA",
+      "display_name": "ATN-BANGLA",
+      "logo_url": "/logos/atnbangla.jpg",
+      "category": "News",
+      "sort_order": 41,
+      "play_url": "http://103.89.248.10:8082/ATN-BANGLA/index.m3u8"
+    },
+    {
+      "id": 58,
+      "stream_name": "CHANNAL-I",
+      "display_name": "CHANNAL-I",
+      "logo_url": "/logos/channeli.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 42,
+      "play_url": "http://103.89.248.10:8082/CHANNAL-I/index.m3u8"
+    },
+    {
+      "id": 43,
+      "stream_name": "BANGLAVISION-HD",
+      "display_name": "BANGLAVISION-HD",
+      "logo_url": "/logos/logo-1794278583737.jpg",
+      "category": "News",
+      "sort_order": 44,
+      "play_url": "http://103.89.248.10:8082/BANGLAVISION-HD/index.m3u8"
+    },
+    {
+      "id": 49,
+      "stream_name": "BIJOY-TV",
+      "display_name": "BIJOY-TV",
+      "logo_url": "/logos/bijoytv.jpg",
+      "category": "News",
+      "sort_order": 45,
+      "play_url": "http://103.89.248.10:8082/BIJOY-TV/index.m3u8"
+    },
+    {
+      "id": 59,
+      "stream_name": "CHANNEL-9",
+      "display_name": "CHANNEL-9",
+      "logo_url": "/logos/channel9.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 46,
+      "play_url": "http://103.89.248.10:8082/CHANNEL-9/index.m3u8"
+    },
+    {
+      "id": 68,
+      "stream_name": "DESH",
+      "display_name": "DESH",
+      "logo_url": "/logos/deshtv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 47,
+      "play_url": "http://103.89.248.10:8082/DESH/index.m3u8"
+    },
+    {
+      "id": 67,
+      "stream_name": "DEEPTO",
+      "display_name": "DEEPTO",
+      "logo_url": "/logos/logo-1794277786972.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 48,
+      "play_url": "http://103.89.248.10:8082/DEEPTO/index.m3u8"
+    },
+    {
+      "id": 73,
+      "stream_name": "DURONTO-TV",
+      "display_name": "DURONTO-TV",
+      "logo_url": "/logos/duronto.jpg",
+      "category": "Bangladeshi,Kids",
+      "sort_order": 49,
+      "play_url": "http://103.89.248.10:8082/DURONTO-TV/index.m3u8"
+    },
+    {
+      "id": 76,
+      "stream_name": "EKHON-TV",
+      "display_name": "EKHON-TV",
+      "logo_url": "/logos/ekhon.jpg",
+      "category": "News,Bangladeshi",
+      "sort_order": 50,
+      "play_url": "http://103.89.248.10:8082/EKHON-TV/index.m3u8"
+    },
+    {
+      "id": 77,
+      "stream_name": "EKUSHEY-TV",
+      "display_name": "EKUSHEY-TV",
+      "logo_url": "/logos/ekushey.jpg",
+      "category": "News,Bangladeshi",
+      "sort_order": 51,
+      "play_url": "http://103.89.248.10:8082/EKUSHEY-TV/index.m3u8"
+    },
+    {
+      "id": 84,
+      "stream_name": "GAZI-TV",
+      "display_name": "GAZI-TV",
+      "logo_url": "/logos/gazi.jpg",
+      "category": "Sports,Bangladeshi",
+      "sort_order": 52,
+      "play_url": "http://103.89.248.10:8082/GAZI-TV/index.m3u8"
+    },
+    {
+      "id": 86,
+      "stream_name": "GLOBAL-TV",
+      "display_name": "GLOBAL-TV",
+      "logo_url": "/logos/globaltv.jpg",
+      "category": "News",
+      "sort_order": 53,
+      "play_url": "http://103.89.248.10:8082/GLOBAL-TV/index.m3u8"
+    },
+    {
+      "id": 327,
+      "stream_name": "NAGORIK-TV",
+      "display_name": "NAGORIK-TV",
+      "logo_url": "/logos/nagorik.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 54,
+      "play_url": "http://103.89.248.10:8082/NAGORIK-TV/index.m3u8"
+    },
+    {
+      "id": 328,
+      "stream_name": "NEWS-24",
+      "display_name": "NEWS-24",
+      "logo_url": "/logos/news24.jpg",
+      "category": "News",
+      "sort_order": 55,
+      "play_url": "http://103.89.248.10:8082/NEWS-24/index.m3u8"
+    },
+    {
+      "id": 832,
+      "stream_name": "MAASRANGA-TV",
+      "display_name": "MAASRANGA-TV",
+      "logo_url": "/logos/maasranga.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 56,
+      "play_url": "http://103.89.248.10:8082/MAASRANGA-TV/index.m3u8"
+    },
+    {
+      "id": 833,
+      "stream_name": "MOHONA-TV",
+      "display_name": "MOHONA-TV",
+      "logo_url": "/logos/mohonatv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 57,
+      "play_url": "http://103.89.248.10:8082/MOHONA-TV/index.m3u8"
+    },
+    {
+      "id": 835,
+      "stream_name": "MY-TV",
+      "display_name": "MY-TV",
+      "logo_url": "/logos/mytv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 58,
+      "play_url": "http://103.89.248.10:8082/MY-TV/index.m3u8"
+    },
+    {
+      "id": 50,
+      "stream_name": "BOISHAKHAI-TV",
+      "display_name": "BOISHAKHAI-TV",
+      "logo_url": "/logos/logo-1794277682181.jpg",
+      "category": "News",
+      "sort_order": 59,
+      "play_url": "http://103.89.248.10:8082/BOISHAKHAI-TV/index.m3u8"
+    },
+    {
+      "id": 841,
+      "stream_name": "RTV",
+      "display_name": "RTV",
+      "logo_url": "/logos/rtv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 60,
+      "play_url": "http://103.89.248.10:8082/RTV/index.m3u8"
+    },
+    {
+      "id": 1713,
+      "stream_name": "NTV",
+      "display_name": "NTV",
+      "logo_url": "/logos/ntv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 61,
+      "play_url": "http://103.89.248.10:8082/NTV/index.m3u8"
+    },
+    {
+      "id": 4935,
+      "stream_name": "NEXUS-TV",
+      "display_name": "NEXUS-TV",
+      "logo_url": "/logos/nexustv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 62,
+      "play_url": "http://103.89.248.10:8082/NEXUS-TV/index.m3u8"
+    },
+    {
+      "id": 95,
+      "stream_name": "INDEPENDENT-NEWS",
+      "display_name": "INDEPENDENT-NEWS",
+      "logo_url": "/logos/independenttv.jpg",
+      "category": "Bangladeshi",
+      "sort_order": 63,
+      "play_url": "http://103.89.248.10:8082/INDEPENDENT-NEWS/index.m3u8"
+    },
+    {
+      "id": 97,
+      "stream_name": "Jamuna",
+      "display_name": "Jamuna",
+      "logo_url": "/logos/jamunatv.jpg",
+      "category": "News",
+      "sort_order": 64,
+      "play_url": "http://103.89.248.10:8082/Jamuna/index.m3u8"
+    },
+    {
+      "id": 220,
+      "stream_name": "Star_jalsha",
+      "display_name": "Star_jalsha",
+      "logo_url": "/logos/starjalsha.jpg",
+      "category": "Indian Bangla",
+      "sort_order": 66,
+      "play_url": "http://103.89.248.10:8082/Star_jalsha/index.m3u8"
+    },
+    {
+      "id": 870,
+      "stream_name": "zee-bangla",
+      "display_name": "zee-bangla",
+      "logo_url": "/logos/zeebanglahd.jpg",
+      "category": "Indian Bangla",
+      "sort_order": 67,
+      "play_url": "http://103.89.248.10:8082/zee-bangla/index.m3u8"
+    },
+    {
+      "id": 12,
+      "stream_name": "JALSHA-MOVIES",
+      "display_name": "JALSHA-MOVIES",
+      "logo_url": "/logos/jalshamovies.jpg",
+      "category": "Movies,Indian Bangla",
+      "sort_order": 68,
+      "play_url": "http://103.89.248.10:8082/JALSHA-MOVIES/index.m3u8"
+    },
+    {
+      "id": 63,
+      "stream_name": "Colors-Bangla",
+      "display_name": "Colors-Bangla",
+      "logo_url": "/logos/colorsbangla.jpg",
+      "category": "Indian Bangla",
+      "sort_order": 69,
+      "play_url": "http://103.89.248.10:8082/Colors-Bangla/index.m3u8"
+    },
+    {
+      "id": 331,
+      "stream_name": "RUPOSHI-BANGLA",
+      "display_name": "RUPOSHI-BANGLA",
+      "logo_url": "/logos/Rupasi bangla.jpeg",
+      "category": "Indian Bangla",
+      "sort_order": 70,
+      "play_url": "http://103.89.248.10:8082/RUPOSHI-BANGLA/index.m3u8"
+    },
+    {
+      "id": 344,
+      "stream_name": "ZEE-BANGLA-CINEMA",
+      "display_name": "ZEE-BANGLA-CINEMA",
+      "logo_url": "/logos/zeebanglacinema.jpg",
+      "category": "Indian Bangla",
+      "sort_order": 71,
+      "play_url": "http://103.89.248.10:8082/ZEE-BANGLA-CINEMA/index.m3u8"
+    },
+    {
+      "id": 61,
+      "stream_name": "COLORS-BANGLA-CINEMA",
+      "display_name": "COLORS-BANGLA-CINEMA",
+      "logo_url": "/logos/colar-bangla-cinema.jpg",
+      "category": "Movies",
+      "sort_order": 72,
+      "play_url": "http://103.89.248.10:8082/COLORS-BANGLA-CINEMA/index.m3u8"
+    },
+    {
+      "id": 8,
+      "stream_name": "DISCOVERY-HD",
+      "display_name": "DISCOVERY-HD",
+      "logo_url": "/logos/discoveryhd.jpg",
+      "category": "Documentary",
+      "sort_order": 74,
+      "play_url": "http://103.89.248.10:8082/DISCOVERY-HD/index.m3u8"
+    },
+    {
+      "id": 9,
+      "stream_name": "DISCOVERY-KIDS",
+      "display_name": "DISCOVERY-KIDS",
+      "logo_url": "/logos/discoverykids.jpg",
+      "category": "Kids",
+      "sort_order": 75,
+      "play_url": "http://103.89.248.10:8082/DISCOVERY-KIDS/index.m3u8"
+    },
+    {
+      "id": 10,
+      "stream_name": "ENTER-10-BANGLA",
+      "display_name": "ENTER-10-BANGLA",
+      "logo_url": "/logos/enterr10.jpg",
+      "category": "Movies",
+      "sort_order": 76,
+      "play_url": "http://103.89.248.10:8082/ENTER-10-BANGLA/index.m3u8"
+    },
+    {
+      "id": 16,
+      "stream_name": "National-geo-graphy-bangla",
+      "display_name": "National-geo-graphy-bangla",
+      "logo_url": "/logos/nationalgeo.jpg",
+      "category": "Documentary",
+      "sort_order": 78,
+      "play_url": "http://103.89.248.10:8082/National-geo-graphy-bangla/index.m3u8"
+    },
+    {
+      "id": 18,
+      "stream_name": "SANGEET-BANGLA",
+      "display_name": "SANGEET-BANGLA",
+      "logo_url": "/logos/Sangeetbangla.jpg",
+      "category": "Indian Bangla,Music",
+      "sort_order": 79,
+      "play_url": "http://103.89.248.10:8082/SANGEET-BANGLA/index.m3u8"
+    },
+    {
+      "id": 23,
+      "stream_name": "Sony-Aath",
+      "display_name": "Sony-Aath",
+      "logo_url": "/logos/sonyaath.jpg",
+      "category": "Indian Bangla",
+      "sort_order": 81,
+      "play_url": "http://103.89.248.10:8082/Sony-Aath/index.m3u8"
+    },
+    {
+      "id": 26,
+      "stream_name": "nat-geo-wild",
+      "display_name": "nat-geo-wild",
+      "logo_url": "/logos/natgeowildhd.jpg",
+      "category": "Documentary",
+      "sort_order": 82,
+      "play_url": "http://103.89.248.10:8082/nat-geo-wild/index.m3u8"
+    },
+    {
+      "id": 27,
+      "stream_name": "travel-xp",
+      "display_name": "travel-xp",
+      "logo_url": "/logos/travelxphd.jpg",
+      "category": "Documentary",
+      "sort_order": 83,
+      "play_url": "http://103.89.248.10:8082/travel-xp/index.m3u8"
+    },
+    {
+      "id": 29,
+      "stream_name": "9XM",
+      "display_name": "9XM",
+      "logo_url": "/logos/9xm.jpg",
+      "category": "Music",
+      "sort_order": 85,
+      "play_url": "http://103.89.248.10:8082/9XM/index.m3u8"
+    },
+    {
+      "id": 32,
+      "stream_name": "AND-XPLORE",
+      "display_name": "AND-XPLORE",
+      "logo_url": "/logos/band sports.jpg",
+      "category": "Sports",
+      "sort_order": 88,
+      "play_url": "http://103.89.248.10:8082/AND-XPLORE/index.m3u8"
+    },
+    {
+      "id": 33,
+      "stream_name": "ASIA-CUP-2025",
+      "display_name": "ASIA-CUP-2025",
+      "logo_url": "default.png",
+      "category": "Sports",
+      "sort_order": 89,
+      "play_url": "http://103.89.248.10:8082/ASIA-CUP-2025/index.m3u8"
+    },
+    {
+      "id": 34,
+      "stream_name": "ASIAN-TV",
+      "display_name": "ASIAN-TV",
+      "logo_url": "default.png",
+      "category": "News",
+      "sort_order": 90,
+      "play_url": "http://103.89.248.10:8082/ASIAN-TV/index.m3u8"
+    },
+    {
+      "id": 40,
+      "stream_name": "B4U-MOVIES",
+      "display_name": "B4U-MOVIES",
+      "logo_url": "/logos/b4umovies.jpg",
+      "category": "Movies",
+      "sort_order": 93,
+      "play_url": "http://103.89.248.10:8082/B4U-MOVIES/index.m3u8"
+    },
+    {
+      "id": 44,
+      "stream_name": "BBC-Earth",
+      "display_name": "BBC-Earth",
+      "logo_url": "/logos/bbcearthhd.jpg",
+      "category": "News",
+      "sort_order": 96,
+      "play_url": "http://103.89.248.10:8082/BBC-Earth/index.m3u8"
+    },
+    {
+      "id": 52,
+      "stream_name": "BTV",
+      "display_name": "BTV",
+      "logo_url": "default.png",
+      "category": "News",
+      "sort_order": 100,
+      "play_url": "http://103.89.248.10:8082/BTV/index.m3u8"
+    },
+    {
+      "id": 74,
+      "stream_name": "Discovery-Science",
+      "display_name": "Discovery-Science",
+      "logo_url": "/logos/discoveryscience.jpg",
+      "category": "Documentary",
+      "sort_order": 111,
+      "play_url": "http://103.89.248.10:8082/Discovery-Science/index.m3u8"
+    },
+    {
+      "id": 78,
+      "stream_name": "ESPN-1",
+      "display_name": "ESPN-1",
+      "logo_url": "/logos/espnhd.jpg",
+      "category": "Sports",
+      "sort_order": 113,
+      "play_url": "http://103.89.248.10:8082/ESPN-1/index.m3u8"
+    },
+    {
+      "id": 79,
+      "stream_name": "Eurosports",
+      "display_name": "Eurosports",
+      "logo_url": "/logos/eurosports1.jpg",
+      "category": "Sports",
+      "sort_order": 114,
+      "play_url": "http://103.89.248.10:8082/Eurosports/index.m3u8"
+    },
+    {
+      "id": 81,
+      "stream_name": "FOX-SPORTS-CRICKET",
+      "display_name": "FOX-SPORTS-CRICKET",
+      "logo_url": "default.png",
+      "category": "Sports",
+      "sort_order": 116,
+      "play_url": "http://103.89.248.10:8082/FOX-SPORTS-CRICKET/index.m3u8"
+    },
+    {
+      "id": 85,
+      "stream_name": "GEO-SPORTS",
+      "display_name": "GEO-SPORTS",
+      "logo_url": "/logos/geosuper.jpg",
+      "category": "Sports",
+      "sort_order": 118,
+      "play_url": "http://103.89.248.10:8082/GEO-SPORTS/index.m3u8"
+    },
+    {
+      "id": 91,
+      "stream_name": "HUM-TV",
+      "display_name": "HUM-TV",
+      "logo_url": "/logos/humtvhd.jpg",
+      "category": "",
+      "sort_order": 123,
+      "play_url": "http://103.89.248.10:8082/HUM-TV/index.m3u8"
+    },
+    {
+      "id": 93,
+      "stream_name": "Hum-Sitarey",
+      "display_name": "Hum-Sitarey",
+      "logo_url": "/logos/hum sitarey.jpg",
+      "category": "",
+      "sort_order": 125,
+      "play_url": "http://103.89.248.10:8082/Hum-Sitarey/index.m3u8"
+    },
+    {
+      "id": 94,
+      "stream_name": "Hum-masala",
+      "display_name": "Hum-masala",
+      "logo_url": "/logos/hum masala.jpg",
+      "category": "",
+      "sort_order": 126,
+      "play_url": "http://103.89.248.10:8082/Hum-masala/index.m3u8"
+    },
+    {
+      "id": 96,
+      "stream_name": "Investigation-Discovery",
+      "display_name": "Investigation-Discovery",
+      "logo_url": "/logos/investigation discovery.jpg",
+      "category": "Documentary",
+      "sort_order": 127,
+      "play_url": "http://103.89.248.10:8082/Investigation-Discovery/index.m3u8"
+    },
+    {
+      "id": 330,
+      "stream_name": "REDBOL-TV",
+      "display_name": "REDBOL-TV",
+      "logo_url": "/logos/red bull.jpg",
+      "category": "",
+      "sort_order": 133,
+      "play_url": "http://103.89.248.10:8082/REDBOL-TV/index.m3u8"
+    },
+    {
+      "id": 334,
+      "stream_name": "SSC1",
+      "display_name": "SSC1",
+      "logo_url": "/logos/SSC.jpg",
+      "category": "",
+      "sort_order": 135,
+      "play_url": "http://103.89.248.10:8082/SSC1/index.m3u8"
+    },
+    {
+      "id": 340,
+      "stream_name": "Sony-TEN-5",
+      "display_name": "Sony-TEN-5",
+      "logo_url": "/logos/sonyten5.png",
+      "category": "",
+      "sort_order": 136,
+      "play_url": "http://103.89.248.10:8082/Sony-TEN-5/index.m3u8"
+    },
+    {
+      "id": 343,
+      "stream_name": "Wild-Earth",
+      "display_name": "Wild-Earth",
+      "logo_url": "/logos/wild earth.jpg",
+      "category": "",
+      "sort_order": 137,
+      "play_url": "http://103.89.248.10:8082/Wild-Earth/index.m3u8"
+    },
+    {
+      "id": 345,
+      "stream_name": "cn",
+      "display_name": "cn",
+      "logo_url": "/logos/cartoonnetwork.jpg",
+      "category": "Kids",
+      "sort_order": 138,
+      "play_url": "http://103.89.248.10:8082/cn/index.m3u8"
+    },
+    {
+      "id": 614,
+      "stream_name": "SONY-MAX",
+      "display_name": "SONY-MAX",
+      "logo_url": "/logos/sonymaxhd.jpg",
+      "category": "Movies",
+      "sort_order": 141,
+      "play_url": "http://103.89.248.10:8082/SONY-MAX/index.m3u8"
+    },
+    {
+      "id": 838,
+      "stream_name": "POGO",
+      "display_name": "POGO",
+      "logo_url": "/logos/pogo.jpg",
+      "category": "",
+      "sort_order": 142,
+      "play_url": "http://103.89.248.10:8082/POGO/index.m3u8"
+    },
+    {
+      "id": 864,
+      "stream_name": "my-time",
+      "display_name": "my-time",
+      "logo_url": "/logos/my time.jpg",
+      "category": "",
+      "sort_order": 146,
+      "play_url": "http://103.89.248.10:8082/my-time/index.m3u8"
+    },
+    {
+      "id": 867,
+      "stream_name": "sony-max2",
+      "display_name": "sony-max2",
+      "logo_url": "/logos/sony max2.jpeg",
+      "category": "",
+      "sort_order": 147,
+      "play_url": "http://103.89.248.10:8082/sony-max2/index.m3u8"
+    },
+    {
+      "id": 1922,
+      "stream_name": "Sky-Sports-premier-League",
+      "display_name": "Sky-Sports-premier-League",
+      "logo_url": "/logos/skypremierleague.jpg",
+      "category": "Sports",
+      "sort_order": 151,
+      "play_url": "http://103.89.248.10:8082/Sky-Sports-premier-League/index.m3u8"
+    },
+    {
+      "id": 1717,
+      "stream_name": "SONY-YAY",
+      "display_name": "SONY-YAY",
+      "logo_url": "/logos/sonyyay.jpg",
+      "category": "",
+      "sort_order": 153,
+      "play_url": "http://103.89.248.10:8082/SONY-YAY/index.m3u8"
+    },
+    {
+      "id": 2232,
+      "stream_name": "SKY-Sports-Football",
+      "display_name": "SKY-Sports-Football",
+      "logo_url": "/logos/skyfootball.jpg",
+      "category": "Sports",
+      "sort_order": 154,
+      "play_url": "http://103.89.248.10:8082/SKY-Sports-Football/index.m3u8"
+    },
+    {
+      "id": 2718,
+      "stream_name": "TNT-Sports-3",
+      "display_name": "TNT-Sports-3",
+      "logo_url": "/logos/tntsports3.jpeg",
+      "category": "Sports",
+      "sort_order": 156,
+      "play_url": "http://103.89.248.10:8082/TNT-Sports-3/index.m3u8"
+    },
+    {
+      "id": 4970,
+      "stream_name": "star-gold",
+      "display_name": "star-gold",
+      "logo_url": "/logos/stargold.jpg",
+      "category": "Movies",
+      "sort_order": 163,
+      "play_url": "http://103.89.248.10:8082/star-gold/index.m3u8"
+    }
+  ]
+}

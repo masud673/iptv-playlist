@@ -1,8 +1,20 @@
 [
-    {
-        "name": "playlist_1",
-        "url": "https:\/\/example.com\/playlist1.m3u",
-        "type": "m3u",
-        "status": true
-    }
+  {
+    "name": "iptv_server_1",
+    "url": "http://103.158.118.34:3000/api/app-data",
+    "type": "json",
+    "status": true
+  },
+  {
+    "name": "iptv_server_2",
+    "url": "https://raw.githubusercontent.com/masud673/iptv-playlist/refs/heads/main/channel.json",
+    "type": "json",
+    "status": true
+  },
+  {
+    "name": "iptv_server_3",
+    "url": "https://raw.githubusercontent.com/masud673/iptv-playlist/refs/heads/main/channel_list.m3u",
+    "type": "m3u",
+    "status": true
+  }
 ]

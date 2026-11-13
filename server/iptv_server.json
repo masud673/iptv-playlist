@@ -15,6 +15,6 @@
     "name": "movie",
     "url": "https:\/\/raw.githubusercontent.com\/masud673\/iptv-playlist\/refs\/heads\/main\/playlist\/playlist.m3u",
     "type": "m3u",
-    "status": true
+    "status": false
   }
 ]

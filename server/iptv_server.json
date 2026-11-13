@@ -9,7 +9,7 @@
     "name": "iptv_server_2",
     "url": "https:\/\/raw.githubusercontent.com\/masud673\/iptv-playlist\/refs\/heads\/main\/channel_list.m3u",
     "type": "m3u",
-    "status": false
+    "status": true
   },
   {
     "name": "movie",

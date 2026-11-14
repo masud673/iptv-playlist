@@ -3,7 +3,7 @@
     "name": "iptv_server_1",
     "url": "http:\/\/103.158.118.34:3000\/api\/app-data",
     "type": "json",
-    "status": false
+    "status": true
   },
   {
     "name": "iptv_server_2",
